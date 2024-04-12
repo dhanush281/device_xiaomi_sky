@@ -21,6 +21,13 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
+# Elixir Unffficial
+TARGET_BOOT_ANIMATION_RES := 1080
+ELIXIR_BUILD_TYPE := UNOFFICIAL
+EXTRA_UDFPS_ANIMATIONS := true
+
+
+
 ## Device identifier
 PRODUCT_DEVICE := sky
 PRODUCT_NAME := aosp_sky
