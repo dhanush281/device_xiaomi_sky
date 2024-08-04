@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_sky.mk
+    $(LOCAL_DIR)/orion_sky.mk
+
+COMMON_LUNCH_CHOICES := \
+    orion_sky-ap2a-eng \
+    orion_sky-ap2a-userdebug \
+    orion_sky-ap2a-user
