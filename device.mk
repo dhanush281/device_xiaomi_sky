@@ -643,3 +643,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     firmware_adrastea_wlan_mac.bin_symlink \
     firmware_adrastea_WCNSS_qcom_cfg.ini_symlink
+
+# signed flag
+-include vendor/lineage-priv/keys/keys.mk
