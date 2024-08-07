@@ -398,7 +398,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-lineage \
     $(LOCAL_PATH)/overlay-orion
 
 # Partitions
@@ -650,3 +650,7 @@ PRODUCT_PACKAGES += \
 
 # signed flag
 -include vendor/lineage-priv/keys/keys.mk
+
+# InnerTune
+PRODUCT_PACKAGES += \
+    InnerTune
