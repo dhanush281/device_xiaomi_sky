@@ -1,5 +1,5 @@
 echo 'Inner tune Repo'
 # packages/apps/innertune music app
-git clone https://github.com/AgBKartikey/packages_apps_extrapacks
+git clone https://github.com/dhanush281/inner_tune
 
 echo 'DONE & COMPLETED'
