@@ -654,7 +654,3 @@ PRODUCT_PACKAGES += \
 # InnerTune
 PRODUCT_PACKAGES += \
     InnerTune
-
-# Google Camera Go
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
