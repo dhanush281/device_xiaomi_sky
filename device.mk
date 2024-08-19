@@ -647,3 +647,6 @@ PRODUCT_PACKAGES += \
 
 # signed flag
 -include vendor/lineage-priv/keys/keys.mk
+
+# Google Camera
+$(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
