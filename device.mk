@@ -650,3 +650,7 @@ PRODUCT_PACKAGES += \
 
 # Google Camera
 $(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)
+
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
