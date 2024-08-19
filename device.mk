@@ -647,7 +647,3 @@ PRODUCT_PACKAGES += \
 
 # signed flag
 -include vendor/lineage-priv/keys/keys.mk
-
-# InnerTune
-PRODUCT_PACKAGES += \
-    InnerTune
