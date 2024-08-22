@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Configure full_base_telephony.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit common OrionOS configurations
+# Inherit common lineageOSstuff configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configurations
@@ -23,19 +23,27 @@ $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
 ## Device identifier
 PRODUCT_DEVICE := sky
-PRODUCT_NAME := orion_sky
+PRODUCT_NAME := lineage_sky
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23076RN4BI
 PRODUCT_MANUFACTURER := Xiaomi
 
-# flags
-ORION_MAINTAINER := Dhanush
-ORION_MAINTAINER_LINK := https://t.me/solocaptainblaze
-ORION_BUILD_TYPE := OFFICIAL
-ORION_GAPPS := true
-TARGET_ENABLE_BLUR := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS :=  false
+# Flag everestos
+EVEREST_BUILD_TYPE := OFFICIAL
+
+EVEREST_MAINTAINER := Ashwani_&_Dhanush
+
+# Gapps
+WITH_GAPPS := true
+
+# Vanilla
+
+# WITH_GAPPS := false
+
+# Quick switch 
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

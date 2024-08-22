@@ -398,8 +398,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-orion
+    $(DEVICE_PATH)/overlay-lineage
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -644,9 +643,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     firmware_adrastea_wlan_mac.bin_symlink \
     firmware_adrastea_WCNSS_qcom_cfg.ini_symlink
-
-# signed flag
--include vendor/lineage-priv/keys/keys.mk
 
 # Google Camera
 $(call inherit-product, vendor/xiaomi/sky-gcam/Camera-vendor.mk)

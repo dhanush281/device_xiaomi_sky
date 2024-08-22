@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_sky.mk
+    $(LOCAL_DIR)/lineage_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    orion_sky-ap2a-eng \
-    orion_sky-ap2a-userdebug \
-    orion_sky-ap2a-user
+    lineage_sky-ap2a-eng \
+    lineage_sky-ap2a-userdebug \
+    lineage_sky-ap2a-user
