@@ -31,7 +31,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Flag everestos
 EVEREST_BUILD_TYPE := OFFICIAL
 
-EVEREST_MAINTAINER := Ashwani_&_Dhanush
+EVEREST_MAINTAINER := Dhanush😊
 
 # Gapps
 WITH_GAPPS := true
