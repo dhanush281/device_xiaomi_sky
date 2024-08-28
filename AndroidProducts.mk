@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sky.mk
+    $(LOCAL_DIR)/euclid_sky.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sky-ap2a-eng \
-    lineage_sky-ap2a-userdebug \
-    lineage_sky-ap2a-user
+    euclid_sky-ap2a-eng \
+    euclid_sky-ap2a-userdebug \
+    euclid_sky-ap2a-user
